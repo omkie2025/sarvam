@@ -1,0 +1,91 @@
+[
+    {
+        "results": {
+            "transcripts": {
+                "transcript": "\u0cb0\u0cc0\u0c97\u0cbe\u0ca8\u0cbf\u0c82\u0ca6 \u0cb9\u0ccb\u0caf\u0ccd\u0ca4\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1 \u0c93\u0c9f\u0cbf\u0c9c\u0cbf \u0ca1\u0cbf\u0cb8\u0ccd\u0c95\u0ca8\u0cc6\u0c95\u0ccd\u0c9f\u0ccd \u0c85\u0c82\u0ca4 \u0d05\u0d24\u0d46 \u0d05\u0d24\u0d46 \u0cae\u0cbe\u0ca4\u0cbe\u0ca1\u0ccb \u0cae\u0cbe\u0ca4\u0cbe\u0ca1\u0ccd\u0cac\u0cc7\u0ca1\u0cbf \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0cb0\u0ccd \u0b06\u0b2e\u0b47 \u0b1c\u0b3f\u0b32\u0b4d\u0b32\u0b3e\u0b30\u0b47 \u0b2f\u0b3f\u0b2c\u0b41 \u0cb8\u0cc1\u0cae\u0ccd\u0ca8\u0cc6 \u0c86\u0c97 \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cc7\u0cb3\u0c82\u0c97\u0cc6 \u0c85\u0c82\u0ca4 \u0c85\u0c82\u0ca6\u0ccd\u0cb0\u0cc6 \u0c85\u0cb5\u0cbe\u0c97 \u0c85\u0ca6\u0cc1 \u0b06\u0b2a\u0b23 \u0b15\u0b23 \u0b15\u0b39\u0b41\u0b1b\u0b28\u0b4d\u0b24\u0b3f? \u0939\u092e\u094d\u092e \u0d05\u0d32\u0d4d\u0d32 \u0c85\u0cb2\u0ccd\u0cb2 \u0c85\u0cb2\u0ccd\u0cb2 \u0c85\u0cb2\u0ccd\u0cb2 \u0ca8\u0cc0\u0ca8\u0cc1 \u0c95\u0cca\u0ca1\u0cbf \u0c85\u0c82\u0ca4 \u0c85\u0cb2\u0ccd\u0cb2 \u0ca8\u0cbe\u0ca8\u0cc1 \u0cae\u0cc7 \u0c95\u0cc7\u0cb3\u0ccd\u0ca4\u0cc0\u0ca8\u0cbf \u0c86\u0c97 \u0cb8\u0cc1\u0cae\u0ccd\u0ca8\u0cc6 \u0ca8\u0cbe\u0ca8\u0cc1 \u0c86\u0cb2\u0ccd\u0cb0\u0cc6\u0ca1\u0cbf \u0c95\u0cbe\u0cb2\u0ccd \u0cae\u0cbe\u0ca1\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0ca8\u0cbf \u0cb8\u0cb0\u0ccd. \u0c90 \u0c85\u0ca6\u0cc1 \u0c95\u0cca\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6 \u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0c95\u0cbe\u0cb2\u0ccd \u0cae\u0cbe\u0ca1\u0cbf\u0cb2\u0ccd\u0cb2 \u0c85\u0c82\u0ca6\u0ccd\u0cb0\u0cc6 \u091c\u093f\u0932\u0947 \u0915\u0947 \u0928\u093e\u0907\u0928 \u091f\u0940 \u0928\u093e\u0907\u0928 \u092a\u0930\u0938\u0947\u0902\u091f \u0928\u093e\u0932\u0947\u0928\u093e \u0916\u093f\u0932\u093e\u0924\u0947 \u0939\u0948\u0902 \u092d\u093e\u0908 \u091a\u093e\u0930\u094d\u091c"
+            },
+            "translated_transcript": "",
+            "audio_segments": [
+                {
+                    "start_time": 0.03,
+                    "end_time": 2.08,
+                    "speaker_label": "spk_speaker_2",
+                    "transcript": "\u0cb0\u0cc0\u0c97\u0cbe\u0ca8\u0cbf\u0c82\u0ca6 \u0cb9\u0ccb\u0caf\u0ccd\u0ca4\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1 \u0c93\u0c9f\u0cbf\u0c9c\u0cbf \u0ca1\u0cbf\u0cb8\u0ccd\u0c95\u0ca8\u0cc6\u0c95\u0ccd\u0c9f\u0ccd \u0c85\u0c82\u0ca4",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 4.8,
+                    "end_time": 5.41,
+                    "speaker_label": "spk_speaker_0",
+                    "transcript": "\u0d05\u0d24\u0d46 \u0d05\u0d24\u0d46",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 5.76,
+                    "end_time": 6.91,
+                    "speaker_label": "spk_speaker_2",
+                    "transcript": "\u0cae\u0cbe\u0ca4\u0cbe\u0ca1\u0ccb \u0cae\u0cbe\u0ca4\u0cbe\u0ca1\u0ccd\u0cac\u0cc7\u0ca1\u0cbf \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0cb0\u0ccd",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 7.17,
+                    "end_time": 7.68,
+                    "speaker_label": "spk_speaker_1",
+                    "transcript": "\u0b06\u0b2e\u0b47 \u0b1c\u0b3f\u0b32\u0b4d\u0b32\u0b3e\u0b30\u0b47 \u0b2f\u0b3f\u0b2c\u0b41",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 8.77,
+                    "end_time": 10.67,
+                    "speaker_label": "spk_speaker_0",
+                    "transcript": "\u0cb8\u0cc1\u0cae\u0ccd\u0ca8\u0cc6 \u0c86\u0c97 \u0ca8\u0cbf\u0cae\u0ccd\u0cae\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cc7\u0cb3\u0c82\u0c97\u0cc6 \u0c85\u0c82\u0ca4 \u0c85\u0c82\u0ca6\u0ccd\u0cb0\u0cc6 \u0c85\u0cb5\u0cbe\u0c97 \u0c85\u0ca6\u0cc1",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 10.67,
+                    "end_time": 11.57,
+                    "speaker_label": "spk_speaker_1",
+                    "transcript": "\u0b06\u0b2a\u0b23 \u0b15\u0b23 \u0b15\u0b39\u0b41\u0b1b\u0b28\u0b4d\u0b24\u0b3f?",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 11.57,
+                    "end_time": 11.77,
+                    "speaker_label": "spk_speaker_4",
+                    "transcript": "\u0939\u092e\u094d\u092e",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 11.77,
+                    "end_time": 11.87,
+                    "speaker_label": "spk_speaker_1",
+                    "transcript": "\u0d05\u0d32\u0d4d\u0d32",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 11.87,
+                    "end_time": 15.29,
+                    "speaker_label": "spk_speaker_4",
+                    "transcript": "\u0c85\u0cb2\u0ccd\u0cb2 \u0c85\u0cb2\u0ccd\u0cb2 \u0c85\u0cb2\u0ccd\u0cb2 \u0ca8\u0cc0\u0ca8\u0cc1 \u0c95\u0cca\u0ca1\u0cbf \u0c85\u0c82\u0ca4 \u0c85\u0cb2\u0ccd\u0cb2 \u0ca8\u0cbe\u0ca8\u0cc1 \u0cae\u0cc7 \u0c95\u0cc7\u0cb3\u0ccd\u0ca4\u0cc0\u0ca8\u0cbf \u0c86\u0c97 \u0cb8\u0cc1\u0cae\u0ccd\u0ca8\u0cc6",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 15.29,
+                    "end_time": 18.33,
+                    "speaker_label": "spk_speaker_1",
+                    "transcript": "\u0ca8\u0cbe\u0ca8\u0cc1 \u0c86\u0cb2\u0ccd\u0cb0\u0cc6\u0ca1\u0cbf \u0c95\u0cbe\u0cb2\u0ccd \u0cae\u0cbe\u0ca1\u0cbf\u0ca6\u0ccd\u0ca6\u0cc0\u0ca8\u0cbf \u0cb8\u0cb0\u0ccd. \u0c90 \u0c85\u0ca6\u0cc1 \u0c95\u0cca\u0ca4\u0ccd\u0ca4\u0cbe\u0ca8\u0cc6 \u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0c95\u0cbe\u0cb2\u0ccd \u0cae\u0cbe\u0ca1\u0cbf\u0cb2\u0ccd\u0cb2 \u0c85\u0c82\u0ca6\u0ccd\u0cb0\u0cc6",
+                    "translated_transcript": ""
+                },
+                {
+                    "start_time": 19.71,
+                    "end_time": 22.29,
+                    "speaker_label": "spk_speaker_3",
+                    "transcript": "\u091c\u093f\u0932\u0947 \u0915\u0947 \u0928\u093e\u0907\u0928 \u091f\u0940 \u0928\u093e\u0907\u0928 \u092a\u0930\u0938\u0947\u0902\u091f \u0928\u093e\u0932\u0947\u0928\u093e \u0916\u093f\u0932\u093e\u0924\u0947 \u0939\u0948\u0902 \u092d\u093e\u0908 \u091a\u093e\u0930\u094d\u091c",
+                    "translated_transcript": ""
+                }
+            ]
+        },
+        "merged_audio_id": 397,
+        "store_name": "BLR"
+    }
+]

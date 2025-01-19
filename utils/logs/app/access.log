@@ -1,0 +1,6 @@
+2025-01-17 16:39:22,095 - INFO - Incoming request: POST http://localhost:8000/sarvam/transcribe
+2025-01-17 16:39:23,354 - INFO - Uploading audio from URL https://sherpa-retail-recording.s3.amazonaws.com/wakefit/chunks/2024-12-20/20/conversation_12-31-07_12-47-15.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXDHCUEQSNBMWYIDQ%2F20250110%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250110T175803Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&X-Amz-Signature=9ecda49ff5689420ba8f2a6e2016fffef2635716640b6117092f8dc1f7ac8090 to S3 with key temp/1f6ee6ee-5309-4747-9730-eb309fc73bf1/conversation_12-31-07_12-47-15.wav
+2025-01-17 16:39:30,719 - INFO - Fetching file from S3: temp/1f6ee6ee-5309-4747-9730-eb309fc73bf1/conversation_12-31-07_12-47-15.wav
+2025-01-17 16:39:31,744 - ERROR - Unexpected error during transcription: 400: Invalid input: An asyncio.Future, a coroutine or an awaitable is required
+2025-01-17 16:39:31,878 - ERROR - Unexpected error during transcription: 400: Invalid input: An asyncio.Future, a coroutine or an awaitable is required
+2025-01-17 16:39:31,925 - INFO - Processed request: POST http://localhost:8000/sarvam/transcribe in 9.83 seconds with status 200

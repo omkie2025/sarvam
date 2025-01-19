@@ -1,0 +1,25 @@
+# Ignore environment and cache files
+env/
+__pycache__/
+
+# # Ignore uploads and audio processing files
+# uploads/
+# uploads_/
+# audio/
+# process_audio/
+
+# Ignore retail-specific cache and logs
+# retail/__pycache__/
+# retail/config.py
+# *.log
+# nohup.out
+parameters.py
+
+# Ignore dependency installation folder (virtual environment)
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore .env file in the deepgram folder
+./utils/sarvam/.env
+./sarvam/.env

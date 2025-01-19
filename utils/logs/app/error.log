@@ -1,0 +1,2 @@
+2025-01-17 16:39:31,744 - ERROR - Unexpected error during transcription: 400: Invalid input: An asyncio.Future, a coroutine or an awaitable is required
+2025-01-17 16:39:31,878 - ERROR - Unexpected error during transcription: 400: Invalid input: An asyncio.Future, a coroutine or an awaitable is required

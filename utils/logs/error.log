@@ -1,0 +1,1439 @@
+2025-01-16 17:22:41,558 - ERROR - Error in transcribe_with_sarvam: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 31, in transcribe_with_sarvam
+    utterances = response.get("diarized_transcript", {}).get("entries", [])
+                 ^^^^^^^^^^^^
+AttributeError: 'Response' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 71, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-16 19:47:46,607 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 27, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 61, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-16 19:49:55,330 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 28, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 62, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-16 19:54:05,104 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 28, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 62, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-16 19:55:58,756 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 28, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 62, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-16 19:57:41,141 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 28, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 62, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:38:21,084 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.sarvam.ai', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 27, in transcribe_with_sarvam
+    response = requests.post(SARVAM_API_URL, headers=headers, files=files, data=data, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.sarvam.ai', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 63, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:50:56,986 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:52:55,800 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:54:27,751 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:55:56,014 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.sarvam.ai', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 27, in transcribe_with_sarvam
+    response = requests.post(SARVAM_API_URL, headers=headers, files=files, data=data, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.sarvam.ai', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:57:43,662 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.sarvam.ai', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 27, in transcribe_with_sarvam
+    response = requests.post(SARVAM_API_URL, headers=headers, files=files, data=data, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.sarvam.ai', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 11:58:20,339 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 12:05:11,136 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 12:23:21,503 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 12:29:26,451 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 13:08:27,445 - ERROR - Error in transcribe_with_sarvam: 500: Error communicating with Sarvam API.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 29, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.sarvam.ai/speech-to-text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 64, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="Error communicating with Sarvam API.")
+fastapi.exceptions.HTTPException: 500: Error communicating with Sarvam API.
+2025-01-17 13:23:37,335 - ERROR - Error in transcribe_with_sarvam: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 33, in transcribe_with_sarvam
+    response.raise_for_status()
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 70, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-17 14:05:10,092 - ERROR - Error in transcribe_with_sarvam: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 27, in transcribe_with_sarvam
+    response = httpx.post(SARVAM_API_URL, headers=headers, files=files)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+           ^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 67, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-17 14:11:34,790 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 83, in transcribe_chunk
+    response = httpx.post(SARVAM_API_URL, headers=headers, files=files)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+           ^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 123, in transcribe_chunk
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-17 14:11:34,797 - ERROR - Error in transcribe_with_sarvam: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 83, in transcribe_chunk
+    response = httpx.post(SARVAM_API_URL, headers=headers, files=files)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+           ^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 43, in transcribe_with_sarvam
+    chunk_result = await transcribe_chunk(chunk_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 123, in transcribe_chunk
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 63, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-17 14:12:32,436 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 83, in transcribe_chunk
+    response = httpx.post(SARVAM_API_URL, headers=headers, files=files)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+           ^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 123, in transcribe_chunk
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-17 14:12:32,436 - ERROR - Error in transcribe_with_sarvam: 500: An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 83, in transcribe_chunk
+    response = httpx.post(SARVAM_API_URL, headers=headers, files=files)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+    return request(
+           ^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 43, in transcribe_with_sarvam
+    chunk_result = await transcribe_chunk(chunk_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 123, in transcribe_chunk
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\logs\log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\cur8\transcribe-sarvam\utils\sarvam\sarvam_helper.py", line 63, in transcribe_with_sarvam
+    raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred.
+2025-01-17 13:37:06,067 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:37:06,477 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:48:32,492 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:48:32,586 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:52:05,351 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:55:40,468 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:59:30,434 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 13:59:30,963 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 14:09:11,408 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 14:09:11,453 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 14:36:42,705 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 14:36:43,154 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 112, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 153, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 15:13:06,634 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 122, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 178, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-17 15:13:07,719 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 122, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 178, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 18:15:44,637 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 18:15:45,864 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 19:51:53,042 - ERROR - Error in transcribe_chunk: 504: The request to Sarvam API timed out.
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 123, in transcribe_chunk
+    response = await client.post(SARVAM_API_URL, headers=headers, files=files, data=data, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 176, in transcribe_chunk
+    raise HTTPException(status_code=504, detail="The request to Sarvam API timed out.")
+fastapi.exceptions.HTTPException: 504: The request to Sarvam API timed out.
+2025-01-18 21:26:43,704 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 21:26:43,988 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 21:35:14,584 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 21:35:14,606 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 21:37:22,970 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '500 Internal Server Error' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-18 21:38:06,857 - ERROR - Error in transcribe_chunk: 500: An unexpected error occurred: Server error '504 Gateway Time-out' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 126, in transcribe_chunk
+    response.raise_for_status()
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/celery/cel/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '504 Gateway Time-out' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/logs/log_helper.py", line 29, in wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenovo/OneDrive/Desktop/cur8/transcribe-sarvam/utils/sarvam/sarvam_helper.py", line 182, in transcribe_chunk
+    raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred: Server error '504 Gateway Time-out' for url 'https://api.sarvam.ai/speech-to-text'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504

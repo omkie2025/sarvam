@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+pymongo
+python-dotenv==1.0.1
+python-multipart
+httpx
+pydub
+boto3
+werkzeug
